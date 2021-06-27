@@ -33,7 +33,7 @@ class Block{
         push();
         this.visibility = this.visibility-10;
         tint(255,this.visibility);
-        image(this.image,this.body.position.x,this.body.position.y,50,50);
+        image(this.image,this.body.position.x,this.body.position.y,this.width,this.height);
         console.log(this.visibility)
       pop();
 
